@@ -1,11 +1,15 @@
 window.CORNER_AI_CONFIG = {
-  // REQUIRED FOR THE REAL DEMO. Example: '/assets/concept-demo.mp4'.
-  conceptVideoUrl: 'REPLACE_WITH_CONCEPT_VIDEO_URL',
+  // Drop the 9:16 concept video into /assets later and set this path.
+  // Leaving it blank keeps the designed video placeholder visible.
+  conceptVideoUrl: '',
 
-  // REQUIRED BEFORE LAUNCH. Formspree, Supabase Edge Function, or any endpoint that accepts JSON POST.
-  formEndpoint: 'REPLACE_WITH_FORM_ENDPOINT',
+  // Public Supabase client configuration. The publishable key is safe to ship
+  // in browser code; database access is restricted by Row Level Security.
+  supabaseUrl: 'https://mvgzdcqhdruhjoexbdqp.supabase.co',
+  supabasePublishableKey: 'sb_publishable_geG83qIZVsxdbcH5tL9YlQ_3r7fGccv',
 
-  // OPTIONAL. Leave as-is to disable PostHog; local event capture still works for QA.
+  // Optional secondary analytics. Supabase is the source of truth for the
+  // validation funnel, so PostHog can remain disabled.
   posthogKey: 'REPLACE_WITH_POSTHOG_KEY',
   posthogHost: 'https://eu.i.posthog.com',
 };
