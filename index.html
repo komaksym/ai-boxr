@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080908" />
+  <meta name="description" content="Corner AI is a concept iPhone app for amateur boxers who train alone: spot technique mistakes, get one correction, and try again." />
+  <meta property="og:title" content="Corner AI — Train alone. Not blind." />
+  <meta property="og:description" content="A second pair of eyes for amateur boxers training between coached sessions." />
+  <meta property="og:type" content="website" />
+  <title>Corner AI — Train alone. Not blind.</title>
+  <link rel="preload" href="/assets/video-placeholder.svg" as="image" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/config.js"></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar" aria-label="Corner AI">
+      <a class="brand" href="#top" aria-label="Corner AI home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>Corner AI</span>
+      </a>
+      <button class="text-cta js-beta-cta" type="button">Join the beta <span aria-hidden="true">↗</span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">Train alone.<br /><span>Not blind.</span></h1>
+          <p class="hero-sub">Corner AI watches your boxing, spots technique mistakes, and tells you what to fix before your next round.</p>
+          <div class="hero-action">
+            <button class="primary-cta js-beta-cta" type="button">Join the beta <span aria-hidden="true">→</span></button>
+            <p>We’re building Corner AI. Join the first group of amateur boxers testing it.</p>
+          </div>
+        </div>
+
+        <div class="demo-wrap" aria-label="Corner AI concept demo">
+          <div class="phone-frame">
+            <div class="phone-speaker" aria-hidden="true"></div>
+            <div class="video-stage">
+              <img class="video-placeholder" src="/assets/video-placeholder.svg" alt="Corner AI concept demo placeholder showing a boxer and technique feedback" />
+              <video id="demo-video" playsinline controls preload="metadata" poster="/assets/video-placeholder.svg" aria-label="Corner AI concept video"></video>
+              <div class="concept-label">CONCEPT DEMO</div>
+            </div>
+          </div>
+          <p class="demo-caption"><span class="status-dot"></span> Spot the mistake. Fix one thing. Go again.</p>
+        </div>
+      </section>
+
+      <section class="section flow-section" aria-labelledby="flow-title">
+        <div class="section-heading">
+          <p class="section-number">01 / HOW IT WORKS</p>
+          <h2 id="flow-title">One correction at a time.</h2>
+        </div>
+        <div class="flow-grid">
+          <article class="flow-step">
+            <span class="step-no">01</span>
+            <h3>Box</h3>
+            <p>Shadowbox in front of your phone.</p>
+          </article>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <article class="flow-step">
+            <span class="step-no">02</span>
+            <h3>Get one correction</h3>
+            <p>See the mistake, the exact moment it happened, and what to fix.</p>
+          </article>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <article class="flow-step">
+            <span class="step-no">03</span>
+            <h3>Try again</h3>
+            <p>Repeat the drill and see whether your technique improved.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section example-section" aria-labelledby="example-title">
+        <div class="example-copy">
+          <p class="section-number">02 / EXAMPLE</p>
+          <h2 id="example-title">The feedback should be obvious.</h2>
+          <p>No score soup. No twelve things to remember. One mistake worth fixing before your next round.</p>
+        </div>
+        <div class="result-card" aria-label="Example Corner AI result">
+          <div class="result-topline">
+            <span>ROUND REVIEW</span>
+            <span>10 JABS</span>
+          </div>
+          <div class="result-rule"></div>
+          <p class="result-kicker">GUARD DROP</p>
+          <h3>Rear hand dropped on <strong>6/10</strong> jabs</h3>
+          <div class="correction-box">
+            <span>FIX</span>
+            <p>Keep your rear hand on your cheek.</p>
+          </div>
+          <div class="result-compare">
+            <div>
+              <span>BEFORE</span>
+              <strong>6</strong>
+              <small>mistakes</small>
+            </div>
+            <div class="compare-line" aria-hidden="true"></div>
+            <div class="after">
+              <span>AFTER</span>
+              <strong>2</strong>
+              <small>mistakes</small>
+            </div>
+          </div>
+          <div class="improved"><span>↑</span> Guard improved</div>
+        </div>
+      </section>
+
+      <section class="section audience-section" aria-labelledby="audience-title">
+        <p class="section-number">03 / WHO IT IS FOR</p>
+        <h2 id="audience-title">For amateur boxers who train alone between coached sessions.</h2>
+        <p>Your coach can’t watch every round you do at home. Corner AI is meant to be the second pair of eyes.</p>
+      </section>
+
+      <section class="section final-cta" aria-labelledby="final-title">
+        <div>
+          <p class="section-number">04 / EARLY TESTING</p>
+          <h2 id="final-title">Want to test it?</h2>
+          <p>We’re looking for the first amateur boxers to help shape Corner AI.</p>
+        </div>
+        <button class="primary-cta js-beta-cta" type="button">Join the beta <span aria-hidden="true">→</span></button>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span></span><span>Corner AI</span></a>
+      <span>Concept validation · 2026</span>
+    </footer>
+  </div>
+
+  <dialog id="beta-dialog" class="beta-dialog" aria-labelledby="form-title">
+    <div class="dialog-panel">
+      <button id="close-dialog" class="close-dialog" type="button" aria-label="Close beta form">×</button>
+      <div id="form-view">
+        <p class="section-number">EARLY BETA</p>
+        <h2 id="form-title">Help us build the useful version.</h2>
+        <p class="form-intro">A few quick questions so we know who actually wants this.</p>
+        <form id="beta-form" novalidate>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" placeholder="you@example.com" required />
+          </label>
+
+          <label class="field">
+            <span>How long have you been boxing?</span>
+            <select name="boxing_experience" required>
+              <option value="" selected disabled>Select one</option>
+              <option>Just starting</option>
+              <option>&lt; 6 months</option>
+              <option>6–12 months</option>
+              <option>1–3 years</option>
+              <option>3+ years</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>How often do you train boxing alone?</span>
+            <select name="solo_training_frequency" required>
+              <option value="" selected disabled>Select one</option>
+              <option>Rarely</option>
+              <option>1x/week</option>
+              <option>2–3x/week</option>
+              <option>4+x/week</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>What device do you use?</span>
+            <select name="device" required>
+              <option value="" selected disabled>Select one</option>
+              <option>iPhone</option>
+              <option>Android</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Would you pay around €9.99/month if the technique feedback was genuinely useful?</span>
+            <select name="willingness_to_pay" required>
+              <option value="" selected disabled>Select one</option>
+              <option>Yes</option>
+              <option>Maybe</option>
+              <option>No</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>What technique issue would you most want help with? <small>Optional</small></span>
+            <textarea name="technique_issue" rows="3" placeholder="e.g. dropping my guard after the jab"></textarea>
+          </label>
+
+          <p id="form-error" class="form-error" role="alert" hidden></p>
+          <button id="submit-form" class="primary-cta submit-cta" type="submit">Join the beta <span aria-hidden="true">→</span></button>
+        </form>
+      </div>
+      <div id="success-view" class="success-view" hidden>
+        <div class="success-icon" aria-hidden="true">✓</div>
+        <p class="section-number">YOU’RE IN</p>
+        <h2>Thanks — we’ll reach out when we start testing.</h2>
+        <button id="done-dialog" class="secondary-cta" type="button">Done</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
