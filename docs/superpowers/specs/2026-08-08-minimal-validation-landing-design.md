@@ -54,6 +54,7 @@ Remove the current:
 - separate “how it works” section
 - repeated product explanations
 - repeated CTAs
+- visible video placeholder until a real demo asset exists
 - extra section labels and decorative content that do not improve comprehension or conversion
 
 The page should not feel like a SaaS landing page or a product explainer deck.
@@ -85,7 +86,7 @@ Existing beta form behavior and Supabase wiring remain unchanged:
 - form fields and validation stay as-is
 - successful submissions go to Supabase
 - funnel analytics remain intact
-- video remains a placeholder until a real concept video exists
+- video configuration can remain in code, but no video UI is shown until a real concept video exists
 
 No new backend features or analytics events are added.
 
